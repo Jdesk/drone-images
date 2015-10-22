@@ -99,4 +99,6 @@ elasticsearch:
 redis:
 	docker build --rm -t bugagazavr/redis:2.8 ./services/redis/redis-2.8
 	docker build --rm -t bugagazavr/redis:2.6 ./services/redis/redis-2.6
+	
+	### drone at drone.mysimpleclouds.com
 
