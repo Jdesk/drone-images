@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+image: ubuntu:14.04
 
 RUN adduser --home /home/ubuntu --shell /bin/bash --disabled-password --gecos "" ubuntu
 
