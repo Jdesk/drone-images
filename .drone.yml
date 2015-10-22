@@ -9,7 +9,6 @@ script:
   - make_test postgres
   - make_test mysql
   - make deps
-  - DOCKER_HOST=:2375 MIX_ENV=prod mix edip
 services:
   - postgres
   - mysql
