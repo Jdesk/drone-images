@@ -1,5 +1,5 @@
 build:
-  image: docker/nodejs:0.10
+  image: jbthechamp/mynodebb:latest
 git:
   path: github.com/Jdesk/drone-images
 env:
