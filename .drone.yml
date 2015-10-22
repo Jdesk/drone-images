@@ -6,8 +6,6 @@ script:
   - sudo apt-get update && sudo apt-get dist-upgrade
   - npm install -g express
   - npm install nodebb
-  - make_test postgres
-  - make_test mysql
   - make deps
 services:
   - postgres
