@@ -34,6 +34,6 @@ notify:
   webhook:
     urls:
       - https://webhooks.gitter.im/e/738cec25e34bafb2650f
-    on_started: true
+    on_started: false
     on_success: true
     on_failure: true
