@@ -6,8 +6,6 @@ script:
   - sudo apt-get install git nodejs nodejs-legacy npm imagemagick build-essential
   - sudo add-apt-repository ppa:chris-lea/redis-server
   - sudo apt-get update && sudo apt-get dist-upgrade
-  - gem install fpm
-  - rbenv rehash
   - make deps
   - make test
   - make test_postgres
