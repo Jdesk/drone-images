@@ -1,6 +1,7 @@
-image: docker/nginx
+build:
+  image: golang:1.5
 git:
-  path: github.com/Jdesk/nodebb
+  path: github.com/Jdesk/drone-images
 env:
   - GOROOT=/usr/local/go
   - PATH=$PATH:$GOROOT/bin:$GOPATH/bin
