@@ -1,5 +1,5 @@
 build:
-  image: golang:1.5
+  image: bugagazavr/nodejs:0.10
 git:
   path: github.com/Jdesk/drone-images
 env:
