@@ -8,6 +8,8 @@ script:
   - npm install nodebb
   - make deps
 services:
+  - npm
+  - nodebb
   - postgres
   - mysql
   - memcached
