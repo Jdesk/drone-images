@@ -1,3 +1,4 @@
+image: google/nodejs
 script:
   - sudo apt-get install git nodejs npm imagemagick build-essential
   - sudo ln -s /usr/bin/nodejs /usr/bin/node
