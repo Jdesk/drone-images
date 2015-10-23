@@ -22,7 +22,6 @@ services:
   - memcached
   - redis
   - mongodb
-  - npm
 notify:
   email:
     recipients:
