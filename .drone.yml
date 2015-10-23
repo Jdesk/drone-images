@@ -1,16 +1,9 @@
-build:
-  image: bugagazavr/golang
-  environment:
-    - GOPATH=/drone
-  commands:
-    - apt-get update 1> /dev/null 2> /dev/null
-    - apt-get -y install libsqlite3-dev sqlite3 1> /dev/null 2> /dev/null
-    - go get golang.org/x/tools/cmd/vet
-    - go get golang.org/x/tools/cmd/cover
-  - GOROOT=/usr/local/go
-  - PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-env:
-  - GOPATH=/var/cache/drone
+image: bugagazavr/ruby:2.2.5
+script:
+  - sudo apt-get -y install git zip libsqlite3-dev sqlite3 dpkg 1> /dev/null 2> /dev/null
+  - sudo apt-get install git nodejs nodejs-legacy npm imagemagick build-essential
+  - sudo add-apt-repository ppa:chris-lea/redis-server
+  - sudo apt-get update && sudo apt-get dist-upgrade
 script:
   - sudo apt-get install git nodejs npm imagemagick build-essential
   - sudo ln -s /usr/bin/nodejs /usr/bin/node
