@@ -1,5 +1,5 @@
 build:
-  image: bugagazavr/ruby:2.1.5
+  image: bugagazavr/golang
   environment:
     - GOPATH=/drone
   commands:
