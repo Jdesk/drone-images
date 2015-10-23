@@ -20,7 +20,7 @@ services:
   - postgres
   - mysql
   - memcached
-  - redis-server
+  - redis
   - mongodb
   - npm
 notify:
