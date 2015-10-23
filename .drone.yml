@@ -17,7 +17,6 @@ script:
 services:
   - postgres
   - mysql
-  - sqlite
   - memcached
   - redis-server
   - mongodb
