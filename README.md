@@ -1,5 +1,9 @@
 # Docker images for drone.io
 
+[![Join the chat at https://gitter.im/Jdesk/drone-images](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Jdesk/drone-images?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+[![Join the chat at https://gitter.im/Jdesk/drone-images](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Jdesk/drone-images?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 https://drone.io is open-sourced continuous integration service. It runs tests of project inside docker container. 
 
 ## Goal
